@@ -49,3 +49,17 @@ body {
     color: #B11515 !important;
     border-color: #B11515 !important;
 }
+
+::-webkit-scrollbar-thumb {
+    background-color: #B11515;
+    height:10px;
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+html,body{
+    overflow-x: hidden;
+}
