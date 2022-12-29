@@ -18,7 +18,17 @@ var people = new Swiper(".people", {
     },
     loop: true,
     autoplay: true,
-    slidesPerView: 3,
+    breakpoints: {
+        640: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+    }
 });
 
 var stories = new Swiper(".stories", {
