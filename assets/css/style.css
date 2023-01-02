@@ -68,10 +68,13 @@ body {
     :root {
         font-size: 12px;
     }
+<<<<<<< HEAD
     .swiper-pagination-bullet{
     
     display:none !important;
 }
+=======
+>>>>>>> 858790aa4f94c9d93e5f168582f290dce3aec3b3
 }
 
 marquee {
